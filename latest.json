@@ -4,7 +4,10 @@
     "downloads": [
         {
             "name": "NexusMods",
-            "url": "https://www.nexusmods.com/skyrimspecialedition/mods/6837"
+            "url": "https://www.nexusmods.com/skyrimspecialedition/mods/6837",
+            "conditions": [
+                "sys_platform == 'win32'"
+            ]
         },
         {
             "name": "GitHub",

@@ -27,6 +27,12 @@
                     "url": {
                         "type": "string",
                         "format": "uri"
+                    },
+                    "conditions": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
                     }
                 },
                 "required": [ "name", "url" ]
